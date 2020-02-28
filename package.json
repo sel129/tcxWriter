@@ -1,0 +1,23 @@
+{
+  "name": "tcxwriter",
+  "version": "1.0.0",
+  "description": "a module to write tcx files",
+  "main": "dist/tcxWriter.js",
+  "scripts": {
+    "test": "jest",
+    "babel": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "author": "Scott Lis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-jest": "^25.1.0",
+    "babel-preset-minify": "^0.5.1",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
+  }
+}
